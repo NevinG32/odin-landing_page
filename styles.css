@@ -7,6 +7,7 @@
 .flex-container
 {
     display: flex;
+    
 
 }
 .flexdir{
@@ -110,4 +111,39 @@ align-items: flex-start;
 .sect2-2item2{
     text-align-last: center;
 
+}
+
+
+
+
+.sect3{
+    
+    height: 500px;
+    background-color:#E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.sect3item{
+
+    flex-direction: column;
+
+}
+
+
+.sect3-pt{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+    color: #1F2937;
+}
+
+.sect3-ft{
+   align-self: flex-end;
+   font-weight: bold;
+   font-size: 23px;
+   margin-bottom: 10px;
+  
 }
